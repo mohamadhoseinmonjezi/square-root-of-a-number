@@ -13,3 +13,16 @@ This project provides a Python implementation of the square root calculation usi
 ```python
 def square_root_bisection(square_target, tolerance=1e-7, max_iterations=100):
     ...
+```
+
+## Example
+```python
+from square_root_bisection import square_root_bisection
+
+# Calculate the square root of 16
+N = 16
+result = square_root_bisection(N)
+
+# Output:
+# The square root of 16 is approximately 4.0
+```
